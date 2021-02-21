@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+    
+}
+.bg{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+}
+
+#txt1{
+    position: relative;
+    top: 90px;
+    left: 700px;
+}
+#txt2{
+    position: relative;
+    top: 90px;
+    left: 700px;
+}
+#txt3{
+    position: relative;
+    top: 90px;
+    left: 700px;
+}
+.btn{
+    position: relative;
+    top: 200px;
+    left: 420px;
+    height: 30px;
+    width: 130px;
+}
+.txt{
+    position: relative;
+    top: 130px;
+    left: 430px;
+    height: 21px;
+    width: 250px;
+}
+.heading{
+    background-color: black;
+}
+.btn2{
+    position: relative;;
+    left: 10px;
+    top: 200px;
+    
+}

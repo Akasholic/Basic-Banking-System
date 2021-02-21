@@ -1,0 +1,140 @@
+html,body{
+    height: 100%;
+}
+.bg{
+    background-color:brown ;
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    color: antiquewhite;
+    margin-left: 50px;
+    margin: 20px;
+    
+}
+.slideshow{
+ image-rendering: pixelated;
+}
+
+.menu{
+    background-color: black;
+    overflow: hidden;
+}
+
+.menu a{
+    float: left;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: beige;
+}
+
+.menu a.current{
+    background-color: black;
+    color: beige;
+}
+
+.sidepic{
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    
+}
+.art1{
+    position: absolute;
+    left: 900px;
+    top: 270px;
+}
+.btn1{
+    position: absolute;
+    cursor: pointer;
+    left: 900px;
+    top: 270px;    
+}
+.btn2{
+    position: absolute;
+    cursor: pointer;
+    left: 900px;
+    top: 410px;
+}
+.img1{
+    position: absolute;
+    left: 800px;
+    top: 420px;
+}
+
+.img2{
+    position: absolute;
+    left: 800px;
+    top: 275px;
+}
+.btn3{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1325px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

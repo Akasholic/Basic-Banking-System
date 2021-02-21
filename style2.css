@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+}
+.bg{
+      
+    background-color: brown;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;        
+}
+.btn1{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+.btn2{
+    position: absolute;
+    left: 270px;
+    top: 150px;
+}
+.btn3{
+    position: absolute;
+    left: 520px;
+    top: 150px;
+}
+.btn4{
+    position: absolute;
+    left: 770px;
+    top: 150px;
+}
+.btn5{
+    position: absolute;
+    left: 1020px;
+    top: 150px;
+}
+.btn6{
+    position: absolute;
+    left: 20px;
+    top: 375px;
+}
+.btn7{
+    position: absolute;
+    left: 270px;
+    top: 375px;
+}
+.btn8{
+    position: absolute;
+    left: 520px;
+    top: 375px;
+}
+.btn9{
+    position: absolute;
+    left: 770px;
+    top: 375px;
+}
+.btn10{
+    position: absolute;
+    left: 1020px;
+    top: 375px;
+}
